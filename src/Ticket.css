@@ -1,0 +1,53 @@
+.ticket {
+    min-width: 300px;
+    max-width: 350px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ticket-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.numbers-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.number, .number-selected {
+    width: 12px;
+    height: 12px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid #4e4e4e;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.number-selected {
+    background-color: rgb(255, 204, 0);
+    outline: none;
+}
+
+.show-result {
+    padding: 12px 26px;
+    border-radius: 20px;
+    border: 1px solid #4e4e4e;
+    background: none;
+    max-width: fit-content;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
